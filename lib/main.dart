@@ -12,7 +12,6 @@ import 'package:project_fur_quills99/%D9%88%D8%A7%D8%AC%D9%87%D8%A9_%D9%84%D9%83
 import 'package:project_fur_quills99/1signup1/11signup.dart';
 import 'package:project_fur_quills99/1signup1/21account.dart';
 import 'package:project_fur_quills99/1signup1/welcome.dart';
-//import 'package:project_fur_quills99/1signup1/welcome.dart';
 import 'package:project_fur_quills99/2_navigation_bar_2/navHome9.dart';
 import 'package:project_fur_quills99/Cheetah/adop_cheetah.dart';
 import 'package:project_fur_quills99/Cheetah/env_cheetah.dart';
@@ -43,9 +42,6 @@ import 'package:project_fur_quills99/fox/type_fox.dart';
 import 'package:project_fur_quills99/owl/adop_owl.dart';
 import 'package:project_fur_quills99/owl/env_owl.dart';
 import 'package:project_fur_quills99/owl/type_owl.dart';
-//import 'package:project_fur_quills99/2_navigation_bar_2/pag_home_chanls/page_masseg.dart';
-//import 'package:project_fur_quills99/fox/fox_env.dart';
-//import 'package:project_fur_quills99/fox/fox_env.dart';
 
 void main() {
   runApp(const MyApp());
@@ -54,10 +50,8 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    //var s = 'page_masseg';
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: '11signup',
@@ -67,8 +61,6 @@ class MyApp extends StatelessWidget {
         '21account': (context) => const account(),
         'navHome9': (context) => const Home9(),
         'page_masseg': (context) => masg(),
-        //'fox_env': (context) => foxenv9(),
-        // 'page_masseg': (context) => masg(),
         'pag_chan': (context) => chanel(),
         'foxx': (context) => fox(),
         'owl': (context) => owl(),
@@ -110,5 +102,4 @@ class MyApp extends StatelessWidget {
       },
     );
   }
-}
-////
+}/////////////////////////////////////////
